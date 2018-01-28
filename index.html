@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paint - By Axel Valdez</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+        <canvas id="draw" width="800" height="400"></canvas>
+        <div class="toolbar">
+            <ul class="colors">
+                <li><a href="#" class="color black active" data-color="#000000">Black</a></li>
+                <li><a href="#" class="color gray" data-color="#DDDDDD">Gray</a></li>
+                <li><a href="#" class="color white" data-color="#FFFFFF">White</a></li>
+                <li><a href="#" class="color red" data-color="#FF0000">Red</a></li>
+                <li><a href="#" class="color yellow" data-color="#FFD901">Yellow</a></li>
+            </ul>
+            <ul class="sizes">
+                <li><a href="#" class="size tiny" data-size="1"><span></span>Tiny</a></li>
+                <li><a href="#" class="size small active" data-size="5"><span></span>Small</a></li>
+                <li><a href="#" class="size medium" data-size="10"><span></span>Medium</a></li>
+                <li><a href="#" class="size large" data-size="15"><span></span>Large</a></li>
+                <li><a href="#" class="size huge" data-size="20"><span></span>Huge</a></li>
+            </ul>
+            <ul class="actions">
+                <li><a href="#" class="action save" download="image">Save Image</a></li>
+                <li><a href="#" class="action clear">Clear</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
