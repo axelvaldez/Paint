@@ -1,2 +1,4 @@
 # Paint
-A rough sketchpad made with canvas.
+A quick sketchpad made with canvas.
+
+http://code.axelvaldez.mx/paint
